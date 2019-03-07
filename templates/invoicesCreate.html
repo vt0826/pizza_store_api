@@ -1,0 +1,87 @@
+<h1>Create A Order</h1>
+<h2>Please See Below Menu For the Freshest Pizza </h2>
+<a class="backButton" href="/checks/all">Back</a>
+<hr />
+
+
+
+<div class="formWrapper">
+  <form id="checksCreate" action="/api/checks" method="POST">
+    <div class="formError"></div>
+
+    <div class="inputWrapper">
+      <h2>Pizza</h2>
+      <div class="checkboxGroup">
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice">Regular Slice &nbsp &nbsp &nbsp  $ 2.50&nbsp
+        <input type="text" class="quantity"/>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice">Sicilian Slice $2.75 
+        <input type="text" name="quantity"/></br>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice">Large Pizza Pie &nbsp $15.50 
+        <input type="text" name="quantity"/>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice">Sicilian Pie $18.00 
+        <input type="text" name="quantity"/></br>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice">Grandma Pie $20.00 
+        <input type="text" name="quantity"/>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice">White Pie $20.00 
+        <input type="text" name="quantity"/></br>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice">Hawaiian Pie $20.00 
+        <input type="text" name="quantity"/>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice">Meat Lover $20.00 
+        <input type="text" name="quantity"/></br>
+        
+      </div>
+    </div>
+
+    <div class="inputWrapper">
+    <h2>Pasta</h2>
+      <div class="inputLabel">Linguine with Marinara $10.00</div>
+      <select name="httpmethod">
+        <option value="0" selected>0</option>
+        <option value="1" >1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <div class="inputLabel">Linguine with Marinara $10.00</div>
+      <select name="httpmethod">
+        <option value="0" selected>0</option>
+        <option value="1" >1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+
+    </div>
+
+    <div class="inputWrapper">
+      <h2>Pasta</h2>
+      <div class="checkboxGroup">
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice"> regular slice $ 2.50 
+        <input type="text" name="quantity" /> </br>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice"> sicilian slice $ 2.75 
+        <input type="text" name="quantity"/>
+      </div>
+    </div>
+    
+    <div class="inputWrapper">
+      <h2>Burger</h2>
+      <div class="checkboxGroup">
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice"> regular slice $ 2.50 
+        <input type="text" name="quantity" /> </br>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice"> sicilian slice $ 2.75 
+        <input type="text" name="quantity"/>
+      </div>
+    </div>
+   <div class="inputWrapper">
+      <h2>Beverages</h2>
+      <div class="checkboxGroup">
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice"> regular slice $ 2.50 
+        <input type="text" name="quantity" /> </br>
+        <input type="checkbox" class="multiselect intval" name="successCodes" value="regular slice"> sicilian slice $ 2.75 
+        <input type="text" name="quantity"/>
+      </div>
+    </div>
+
+    <div class="inputWrapper ctaWrapper">
+      <button type="submit" class="cta green">Create Order</button>
+    </div>
+  </form>
+</div>
